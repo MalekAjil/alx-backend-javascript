@@ -1,3 +1,3 @@
-async function displayMessage(str){
+function displayMessage(str){
 	console.log(str);
 }
