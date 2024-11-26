@@ -1,3 +1,3 @@
 def displayMessage(str){
-	echo(str);
+	console.log(str);
 }
