@@ -1,3 +1,5 @@
-"scripts": {
-    "0-calcul.test": "mocha"
+{
+  "scripts": {
+    "test": "mocha"
+  }
 }
