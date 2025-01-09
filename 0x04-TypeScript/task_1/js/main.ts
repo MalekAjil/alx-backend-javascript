@@ -1,0 +1,26 @@
+export interface Teacher {
+  readonly firstName: string;
+  readonly lastName: string;
+  fullTimeEmployee: boolean;
+  yearsOfExperience?: number;
+  location: string;
+  [key: string]: any; // This allows adding any attribute to the object
+}
+
+const teacher3: Teacher = {
+  firstName: 'John',
+  fullTimeEmployee: false,
+  lastName: 'Doe',
+  location: 'London',
+  contract: false,
+};
+
+console.log(teacher3);
+
+// should print
+// Object
+// contract: false
+// firstName: "John"
+// fullTimeEmployee: false
+// lastName: "Doe"
+// location: "London"
